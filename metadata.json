@@ -1,0 +1,6 @@
+{
+  "name": "Employee Attrition Dashboard",
+  "description": "An interactive HR analytics platform featuring deep visual reporting on employee demographics, work-life metrics, an AI-powered attrition risk predictor, and an intelligent HR consulting assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -5,8 +5,8 @@ import { ActiveTab, DashboardFilters } from './types';
 import OverviewTab from './components/OverviewTab';
 import DemographicsTab from './components/DemographicsTab';
 import SatisfactionTab from './components/SatisfactionTab';
-import PredictorTab from './components/PredictorTab';
-import ChatTab from './components/ChatTab';
+// import PredictorTab from './components/PredictorTab';
+// import ChatTab from './components/ChatTab';
 import NotebookInsightsTab from './components/NotebookInsightsTab';
 import { 
   TrendingUp, 
@@ -71,8 +71,8 @@ function DashboardApp() {
     { id: 'overview', label: 'Overview Metrics', icon: TrendingUp },
     { id: 'demographics', label: 'Demographics Profile', icon: Users },
     { id: 'worklife', label: 'Work & Environment', icon: Smile },
-    { id: 'predictor', label: 'AI Risk Predictor', icon: Brain },
-    { id: 'assistant', label: 'Krishma (AI Partner)', icon: Sparkles },
+    // { id: 'predictor', label: 'AI Risk Predictor', icon: Brain },
+    // { id: 'assistant', label: 'Krishma (AI Partner)', icon: Sparkles },
     { id: 'notebook', label: 'Notebook Insights', icon: BookOpen }
   ] as const;
 
